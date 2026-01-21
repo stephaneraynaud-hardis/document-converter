@@ -1,0 +1,137 @@
+{
+  "anonymizedName": "RKA",
+  "title": "Directeur de programmes / Manager de transformation",
+  "yearsOfExperience": 28,
+  "anonymizedSummary": "RKA est un manager senior spécialisé dans la direction de programmes et la transformation des organisations. Il intervient depuis plus de 12 ans sur des projets structurants à forts enjeux métiers et SI, notamment dans les domaines de la data, de la performance opérationnelle et de la gouvernance. Il combine une forte capacité de pilotage, un management de proximité et une approche orientée valeur afin d’accompagner durablement les organisations dans leurs évolutions.",
+  "experiences": [
+    {
+      "years": [2020, 2024],
+      "title": "Directeur de programmes",
+      "company": "NOVALYS",
+      "location": "Région lyonnaise",
+      "projects": [
+        {
+          "context": "Pilotage d’un portefeuille de programmes data et transformation digitale, incluant la gouvernance, la coordination multi-équipes et l’alignement stratégique avec les directions métiers.",
+          "actions": [
+            "Management de managers et chefs de projets (12 collaborateurs)",
+            "Pilotage budgétaire et suivi des engagements",
+            "Mise en place d’une gouvernance de programmes et d’indicateurs de performance",
+            "Animation de comités de pilotage exécutifs",
+            "Contribution aux phases d’avant-vente et de cadrage stratégique",
+            "Déploiement de plateformes data et reporting pour des groupes industriels et institutionnels"
+          ],
+          "environment": []
+        }
+      ]
+    },
+    {
+      "years": [2016, 2020],
+      "title": "Responsable de projets Data & BI",
+      "company": "DATAWAVE",
+      "location": "Bordeaux",
+      "projects": [
+        {
+          "context": "Responsabilité de projets BI et data management en engagement de résultats, avec animation de la relation client et accompagnement des utilisateurs.",
+          "actions": [
+            "Pilotage de projets BI et data management",
+            "Encadrement d’équipes projets (jusqu’à 8 personnes)",
+            "Animation d’ateliers de recueil des besoins métiers",
+            "Accompagnement au changement et formation des utilisateurs",
+            "Mise en place de référentiels de données et tableaux de bord décisionnels",
+            "Interventions pour des acteurs du retail, de l’assurance et des services"
+          ],
+          "environment": []
+        }
+      ]
+    },
+    {
+      "years": [2011, 2016],
+      "title": "Chef de projets senior",
+      "company": "INFORIUM",
+      "location": "Toulouse",
+      "projects": [
+        {
+          "context": "Structuration de pratiques projets et pilotage de dispositifs de maintenance et d’évolution applicative.",
+          "actions": [
+            "Définition de standards projets et méthodes de pilotage",
+            "Mise en place et gestion de centres de services",
+            "Pilotage de projets en cycle en V et Agile",
+            "Coaching des équipes internes et partenaires",
+            "Participation aux réponses aux appels d’offres",
+            "Déploiement de solutions décisionnelles et outils de pilotage"
+          ],
+          "environment": []
+        }
+      ]
+    },
+    {
+      "years": [2004, 2011],
+      "title": "Chef de projets / Consultant SI",
+      "company": "AXIOME IT",
+      "location": "Île-de-France",
+      "projects": [
+        {
+          "context": "Conduite de projets SI pour des clients grands comptes, depuis les phases de cadrage jusqu’au déploiement.",
+          "actions": [
+            "Pilotage de projets SI",
+            "Animation d’ateliers fonctionnels et techniques",
+            "Coordination des équipes de développement",
+            "Contribution aux phases de conception et de réalisation",
+            "Mise en œuvre de solutions de reporting et d’outils de pilotage"
+          ],
+          "environment": []
+        }
+      ]
+    },
+    {
+      "years": [1996, 2004],
+      "title": "Analyste / Chef de projets junior",
+      "company": "SERVITEC",
+      "location": "Nord de la France",
+      "projects": [
+        {
+          "context": "Participation à des projets applicatifs internes et clients, avec une montée progressive en responsabilité.",
+          "actions": [
+            "Analyse des besoins fonctionnels",
+            "Participation aux développements applicatifs",
+            "Suivi des recettes et déploiements",
+            "Support aux utilisateurs",
+            "Contribution à des projets de rationalisation des outils internes"
+          ],
+          "environment": []
+        }
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "year": 1995,
+      "title": "Maîtrise Informatique",
+      "location": "France"
+    },
+    {
+      "year": 1992,
+      "title": "DUT Informatique",
+      "location": "France"
+    }
+  ],
+  "skills": [
+    "Direction de programmes",
+    "Pilotage de portefeuille projets",
+    "Management d’équipes",
+    "Gouvernance SI",
+    "Accompagnement au changement",
+    "Vision stratégique",
+    "Leadership",
+    "Communication exécutive"
+  ],
+  "tools": [
+    "Data & BI",
+    "Gouvernance Data",
+    "Reporting",
+    "Méthodes Agile et hybrides",
+    "PMO",
+    "Audit SI",
+    "Coaching managérial"
+  ]
+}

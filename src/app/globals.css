@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #000093;
+  --secondary-color: #0053ff;
+  --gray-background: #e5e5e5;
+  --disabled-background: #616161;
+  --input-height: 36px;
+
+  --error-color: #ca1c3e;
+  --success-color: #30b373;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 250, 250);
+  padding: 100px;
+}
+
+* {
+  font-family: var(--font-open-sans);
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+select {
+  font-size: normal;
+  padding: 6px;
+  margin: 0;
+  background-color: white;
+  height: var(--input-height);
+  cursor: pointer;
+}
+
+button {
+  font-size: normal;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 6px 12px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  height: var(--input-height);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+
+  &:disabled {
+    background-color: var(--disabled-background);
+    cursor: auto;
+  }
+}
+
+a {
+  appearance: none;
+  font-size: normal;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 6px 12px;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+
+  &:disabled {
+    color: var(--disabled-background);
+    cursor: auto;
+  }
+}

@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.noContent {
+  text-align: center;
+  color: var(--disabled-background);
+  background-color: var(--gray-background);
+  border-radius: 3px;
+  padding: 10px;
+}

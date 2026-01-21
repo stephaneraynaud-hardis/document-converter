@@ -1,0 +1,60 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.file {
+  background-color: var(--gray-background);
+  border-radius: 3px;
+}
+
+.fileData {
+  flex: 1;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fileTemplate {
+  width: 250px;
+  select {
+    width: 100%;
+  }
+}
+.fileActions {
+  width: 250px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.error {
+  background-color: var(--error-color);
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  max-height: 220px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-break: break-word;
+}
+
+.success {
+  animation: glowGreen 1s;
+}
+
+@keyframes glowGreen {
+  30% {
+    background-color: var(--success-color);
+  }
+}
