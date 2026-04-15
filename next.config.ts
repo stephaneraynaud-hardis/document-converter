@@ -1,24 +1,26 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
+  output: "export",
   outputFileTracingIncludes: {
     "*": ["public/**/*", ".next/static/**/*"],
   },
-  webpack: (config, { webpack }) => {
-    config.experiments = { ...config.experiments, topLevelAwait: true };
-    config.externals["node:fs"] = "commonjs node:fs";
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
-      fs: false,
-    };
-    config.plugins.push(
-      new webpack.NormalModuleReplacementPlugin(/^node:/, (resource) => {
-        resource.request = resource.request.replace(/^node:/, "");
-      })
-    );
 
-    return config;
+  /**
+   * Set base path. This is the slug of your GitHub repository.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
+   */
+  basePath: "/document-converter",
+
+  /**
+   * Disable server-based image optimization. Next.js does not support
+   * dynamic features with static exports.
+   *
+   * @see https://nextjs.org/docs/app/api-reference/components/image#unoptimized
+   */
+  images: {
+    unoptimized: true,
   },
 };
 
